@@ -4,7 +4,7 @@ from setuptools_rust import Binding, RustExtension
 
 extras = {}
 extras["testing"] = ["pytest", "requests", "numpy", "datasets", "black==22.3"]
-extras["docs"] = ["sphinx", "sphinx_rtd_theme", "setuptools_rust"]
+extras["docs"] = ["sphinx", "sphinx_rtd_theme"]
 extras["dev"] = extras["testing"]
 
 setup(
